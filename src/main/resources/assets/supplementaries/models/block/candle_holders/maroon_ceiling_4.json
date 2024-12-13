@@ -5,6 +5,6 @@
 		"2": "supplementaries:block/candle_holder",
 		"4": "supplementaries:block/candle_holder_ceiling",
 		"particle": "supplementaries:block/candle_holder",
-		"all": "dye_depot:block/maroon_candle"
+		"all": "dye_depot:block/scarlet_candle"
 	}
 }

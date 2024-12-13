@@ -8,10 +8,10 @@
     },
     [
       {
-        "item": "dye_depot:indigo_wool"
+        "item": "dye_depot:royal_wool"
       },
       {
-        "item": "dye_depot:navy_wool"
+        "item": "dye_depot:phthalo_wool"
       },
       {
         "item": "dye_depot:teal_wool"
@@ -20,7 +20,7 @@
         "item": "dye_depot:tan_wool"
       },
       {
-        "item": "dye_depot:mint_wool"
+        "item": "dye_depot:turquoise_wool"
       },
       {
         "item": "dye_depot:rose_wool"
@@ -44,7 +44,7 @@
         "item": "dye_depot:slate_wool"
       },
       {
-        "item": "dye_depot:navy_wool"
+        "item": "dye_depot:phthalo_wool"
       },
       {
         "item": "dye_depot:tan_wool"

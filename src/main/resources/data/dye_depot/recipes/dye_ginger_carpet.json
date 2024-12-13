@@ -8,10 +8,10 @@
     },
     [
       {
-        "item": "dye_depot:indigo_carpet"
+        "item": "dye_depot:royal_carpet"
       },
       {
-        "item": "dye_depot:navy_carpet"
+        "item": "dye_depot:phthalo_carpet"
       },
       {
         "item": "dye_depot:teal_carpet"
@@ -20,7 +20,7 @@
         "item": "dye_depot:tan_carpet"
       },
       {
-        "item": "dye_depot:mint_carpet"
+        "item": "dye_depot:turquoise_carpet"
       },
       {
         "item": "dye_depot:rose_carpet"
@@ -44,7 +44,7 @@
         "item": "dye_depot:slate_carpet"
       },
       {
-        "item": "dye_depot:navy_carpet"
+        "item": "dye_depot:phthalo_carpet"
       },
       {
         "item": "dye_depot:tan_carpet"

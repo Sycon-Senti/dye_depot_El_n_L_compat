@@ -5,6 +5,6 @@
 		"2": "supplementaries:block/candle_holder",
 		"3": "block/chain",
 		"particle": "supplementaries:block/candle_holder",
-		"all": "dye_depot:block/mint_candle"
+		"all": "dye_depot:block/turquoise_candle"
 	}
 }

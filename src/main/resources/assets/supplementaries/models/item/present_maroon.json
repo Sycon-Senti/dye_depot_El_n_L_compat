@@ -1,12 +1,12 @@
 
 {
-  "parent": "supplementaries:block/presents/present_opened_maroon",
+  "parent": "supplementaries:block/presents/present_opened_scarlet",
   "overrides": [
     {
       "predicate": {
         "supplementaries:packed": 1
       },
-      "model":  "supplementaries:block/presents/present_closed_maroon"
+      "model":  "supplementaries:block/presents/present_closed_scarlet"
     }
   ]
 }

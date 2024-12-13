@@ -79,17 +79,17 @@ public class DDShulkerBoxBlock extends ShulkerBoxBlock {
     }
 
     public static Block getBlockByColor(@Nullable DyeColor dyeColor) {
-        if (dyeColor == DDDyes.MAROON.get()) return DDBlocks.MAROON_SHULKER_BOX;
+        if (dyeColor == DDDyes.SCARLET.get()) return DDBlocks.SCARLET_SHULKER_BOX;
         else if (dyeColor == DDDyes.ROSE.get()) return DDBlocks.ROSE_SHULKER_BOX;
         else if (dyeColor == DDDyes.CORAL.get()) return DDBlocks.CORAL_SHULKER_BOX;
-        else if (dyeColor == DDDyes.INDIGO.get()) return DDBlocks.INDIGO_SHULKER_BOX;
-        else if (dyeColor == DDDyes.NAVY.get()) return DDBlocks.NAVY_SHULKER_BOX;
+        else if (dyeColor == DDDyes.ROYAL.get()) return DDBlocks.ROYAL_SHULKER_BOX;
+        else if (dyeColor == DDDyes.PHTHALO.get()) return DDBlocks.PHTHALO_SHULKER_BOX;
         else if (dyeColor == DDDyes.SLATE.get()) return DDBlocks.SLATE_SHULKER_BOX;
         else if (dyeColor == DDDyes.OLIVE.get()) return DDBlocks.OLIVE_SHULKER_BOX;
-        else if (dyeColor == DDDyes.AMBER.get()) return DDBlocks.AMBER_SHULKER_BOX;
+        else if (dyeColor == DDDyes.GOLDEN.get()) return DDBlocks.GOLDEN_SHULKER_BOX;
         else if (dyeColor == DDDyes.BEIGE.get()) return DDBlocks.BEIGE_SHULKER_BOX;
         else if (dyeColor == DDDyes.TEAL.get()) return DDBlocks.TEAL_SHULKER_BOX;
-        else if (dyeColor == DDDyes.MINT.get()) return DDBlocks.MINT_SHULKER_BOX;
+        else if (dyeColor == DDDyes.TURQUOISE.get()) return DDBlocks.TURQUOISE_SHULKER_BOX;
         else if (dyeColor == DDDyes.AQUA.get()) return DDBlocks.AQUA_SHULKER_BOX;
         else if (dyeColor == DDDyes.VERDANT.get()) return DDBlocks.VERDANT_SHULKER_BOX;
         else if (dyeColor == DDDyes.FOREST.get()) return DDBlocks.FOREST_SHULKER_BOX;

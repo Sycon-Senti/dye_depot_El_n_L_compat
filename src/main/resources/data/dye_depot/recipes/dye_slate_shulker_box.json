@@ -8,10 +8,10 @@
     },
     [
       {
-        "item": "dye_depot:indigo_shulker_box"
+        "item": "dye_depot:royal_shulker_box"
       },
       {
-        "item": "dye_depot:navy_shulker_box"
+        "item": "dye_depot:phthalo_shulker_box"
       },
       {
         "item": "dye_depot:teal_shulker_box"
@@ -20,7 +20,7 @@
         "item": "dye_depot:tan_shulker_box"
       },
       {
-        "item": "dye_depot:mint_shulker_box"
+        "item": "dye_depot:turquoise_shulker_box"
       },
       {
         "item": "dye_depot:rose_shulker_box"
@@ -44,7 +44,7 @@
         "item": "dye_depot:slate_shulker_box"
       },
       {
-        "item": "dye_depot:navy_shulker_box"
+        "item": "dye_depot:phthalo_shulker_box"
       },
       {
         "item": "dye_depot:tan_shulker_box"

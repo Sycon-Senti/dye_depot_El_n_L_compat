@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "dye_depot:golden_terracotta"
+  },
+  "result": "dye_depot:golden_glazed_terracotta"
+}

@@ -27,17 +27,17 @@ public class LlamaDecorLayerMixin {
     @Shadow @Final private LlamaModel<Llama> model;
     @Unique
     private static final ResourceLocation[] TEXTURE_LOCATION = new ResourceLocation[]{
-            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/maroon.png"),
+            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/scarlet.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/rose.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/coral.png"),
-            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/indigo.png"),
-            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/navy.png"),
+            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/royal.png"),
+            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/phthalo.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/slate.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/olive.png"),
-            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/amber.png"),
+            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/golden.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/beige.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/teal.png"),
-            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/mint.png"),
+            new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/turquoise.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/aqua.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/verdant.png"),
             new ResourceLocation(DyeDepot.MOD_ID, "textures/entity/llama/decor/forest.png"),

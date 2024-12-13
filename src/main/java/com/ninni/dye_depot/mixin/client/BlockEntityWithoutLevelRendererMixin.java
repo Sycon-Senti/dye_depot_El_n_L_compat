@@ -42,7 +42,7 @@ public class BlockEntityWithoutLevelRendererMixin {
     private static final DDShulkerBoxBlockEntity[] SHULKER_BOXES =
             Arrays.stream(DDDyes.values())
                     .sorted(Comparator.comparingInt(DDDyes::getId))
-                    .map((dyeColor) -> new DDShulkerBoxBlockEntity(dyeColor.get(), BlockPos.ZERO, DDBlocks.MAROON_SHULKER_BOX.defaultBlockState()))
+                    .map((dyeColor) -> new DDShulkerBoxBlockEntity(dyeColor.get(), BlockPos.ZERO, DDBlocks.SCARLET_SHULKER_BOX.defaultBlockState()))
                     .toArray(DDShulkerBoxBlockEntity[]::new);
 
 
@@ -63,7 +63,7 @@ public class BlockEntityWithoutLevelRendererMixin {
                 else blockEntity = SHULKER_BOXES[dyeColor.getId() - 16];
             }
             else if (block instanceof DDBedBlock) {
-                DDBedBlockEntity ddBed = new DDBedBlockEntity(BlockPos.ZERO, DDBlocks.MAROON_BED.defaultBlockState());
+                DDBedBlockEntity ddBed = new DDBedBlockEntity(BlockPos.ZERO, DDBlocks.SCARLET_BED.defaultBlockState());
                 ddBed.setColor(((DDBedBlock)block).getColor());
                 blockEntity = ddBed;
             } else blockEntity = null;

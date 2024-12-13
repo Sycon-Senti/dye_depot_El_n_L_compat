@@ -4,6 +4,6 @@
 	"textures": {
 		"1": "supplementaries:block/candle_holder",
 		"particle": "supplementaries:block/candle_holder",
-		"all": "dye_depot:block/navy_candle"
+		"all": "dye_depot:block/phthalo_candle"
 	}
 }

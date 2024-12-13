@@ -8,10 +8,10 @@
     },
     [
       {
-        "item": "dye_depot:indigo_bed"
+        "item": "dye_depot:royal_bed"
       },
       {
-        "item": "dye_depot:navy_bed"
+        "item": "dye_depot:phthalo_bed"
       },
       {
         "item": "dye_depot:teal_bed"
@@ -20,7 +20,7 @@
         "item": "dye_depot:tan_bed"
       },
       {
-        "item": "dye_depot:mint_bed"
+        "item": "dye_depot:turquoise_bed"
       },
       {
         "item": "dye_depot:rose_bed"
@@ -44,7 +44,7 @@
         "item": "dye_depot:slate_bed"
       },
       {
-        "item": "dye_depot:navy_bed"
+        "item": "dye_depot:phthalo_bed"
       },
       {
         "item": "dye_depot:tan_bed"

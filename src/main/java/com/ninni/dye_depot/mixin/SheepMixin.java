@@ -41,17 +41,17 @@ import java.util.Map;
 public abstract class SheepMixin extends Animal {
     @Unique
     private static final Map<DyeColor, ItemLike> MORE_ITEM_BY_DYE = Util.make(Maps.newEnumMap(DyeColor.class), (enumMap) -> {
-        enumMap.put(DDDyes.MAROON.get(), DDBlocks.MAROON_WOOL);
+        enumMap.put(DDDyes.SCARLET.get(), DDBlocks.SCARLET_WOOL);
         enumMap.put(DDDyes.ROSE.get(), DDBlocks.ROSE_WOOL);
         enumMap.put(DDDyes.CORAL.get(), DDBlocks.CORAL_WOOL);
-        enumMap.put(DDDyes.INDIGO.get(), DDBlocks.INDIGO_WOOL);
-        enumMap.put(DDDyes.NAVY.get(), DDBlocks.NAVY_WOOL);
+        enumMap.put(DDDyes.ROYAL.get(), DDBlocks.ROYAL_WOOL);
+        enumMap.put(DDDyes.PHTHALO.get(), DDBlocks.PHTHALO_WOOL);
         enumMap.put(DDDyes.SLATE.get(), DDBlocks.SLATE_WOOL);
         enumMap.put(DDDyes.OLIVE.get(), DDBlocks.OLIVE_WOOL);
-        enumMap.put(DDDyes.AMBER.get(), DDBlocks.AMBER_WOOL);
+        enumMap.put(DDDyes.GOLDEN.get(), DDBlocks.GOLDEN_WOOL);
         enumMap.put(DDDyes.BEIGE.get(), DDBlocks.BEIGE_WOOL);
         enumMap.put(DDDyes.TEAL.get(), DDBlocks.TEAL_WOOL);
-        enumMap.put(DDDyes.MINT.get(), DDBlocks.MINT_WOOL);
+        enumMap.put(DDDyes.TURQUOISE.get(), DDBlocks.TURQUOISE_WOOL);
         enumMap.put(DDDyes.AQUA.get(), DDBlocks.AQUA_WOOL);
         enumMap.put(DDDyes.VERDANT.get(), DDBlocks.VERDANT_WOOL);
         enumMap.put(DDDyes.FOREST.get(), DDBlocks.FOREST_WOOL);
@@ -104,16 +104,16 @@ public abstract class SheepMixin extends Animal {
             cir.setReturnValue($this.getType().getDefaultLootTable());
         } else {
             if ($this.getColor().getId() > 15) {
-                if ($this.getColor() == DDDyes.MAROON.get()) cir.setReturnValue(DDLootTables.SHEEP_MAROON);
-                else if ($this.getColor() == DDDyes.AMBER.get()) cir.setReturnValue(DDLootTables.SHEEP_AMBER);
+                if ($this.getColor() == DDDyes.SCARLET.get()) cir.setReturnValue(DDLootTables.SHEEP_SCARLET);
+                else if ($this.getColor() == DDDyes.GOLDEN.get()) cir.setReturnValue(DDLootTables.SHEEP_GOLDEN);
                 else if ($this.getColor() == DDDyes.AQUA.get()) cir.setReturnValue(DDLootTables.SHEEP_AQUA);
                 else if ($this.getColor() == DDDyes.BEIGE.get()) cir.setReturnValue(DDLootTables.SHEEP_BEIGE);
                 else if ($this.getColor() == DDDyes.CORAL.get()) cir.setReturnValue(DDLootTables.SHEEP_CORAL);
                 else if ($this.getColor() == DDDyes.FOREST.get()) cir.setReturnValue(DDLootTables.SHEEP_FOREST);
                 else if ($this.getColor() == DDDyes.GINGER.get()) cir.setReturnValue(DDLootTables.SHEEP_GINGER);
-                else if ($this.getColor() == DDDyes.INDIGO.get()) cir.setReturnValue(DDLootTables.SHEEP_INDIGO);
-                else if ($this.getColor() == DDDyes.MINT.get()) cir.setReturnValue(DDLootTables.SHEEP_MINT);
-                else if ($this.getColor() == DDDyes.NAVY.get()) cir.setReturnValue(DDLootTables.SHEEP_NAVY);
+                else if ($this.getColor() == DDDyes.ROYAL.get()) cir.setReturnValue(DDLootTables.SHEEP_ROYAL);
+                else if ($this.getColor() == DDDyes.TURQUOISE.get()) cir.setReturnValue(DDLootTables.SHEEP_TURQUOISE);
+                else if ($this.getColor() == DDDyes.PHTHALO.get()) cir.setReturnValue(DDLootTables.SHEEP_PHTHALO);
                 else if ($this.getColor() == DDDyes.OLIVE.get()) cir.setReturnValue(DDLootTables.SHEEP_OLIVE);
                 else if ($this.getColor() == DDDyes.ROSE.get()) cir.setReturnValue(DDLootTables.SHEEP_ROSE);
                 else if ($this.getColor() == DDDyes.SLATE.get()) cir.setReturnValue(DDLootTables.SHEEP_SLATE);

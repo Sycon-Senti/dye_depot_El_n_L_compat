@@ -1,38 +1,38 @@
 {
   "variants": {
     "facing=north,packed=false": {
-      "model": "supplementaries:block/presents/trapped_present_opened_maroon"
+      "model": "supplementaries:block/presents/trapped_present_opened_scarlet"
     },
     "facing=east,packed=false": {
-      "model": "supplementaries:block/presents/trapped_present_opened_maroon",
+      "model": "supplementaries:block/presents/trapped_present_opened_scarlet",
       "y": 90,
       "uvlock": true
     },
     "facing=south,packed=false": {
-      "model": "supplementaries:block/presents/trapped_present_opened_maroon",
+      "model": "supplementaries:block/presents/trapped_present_opened_scarlet",
       "y": 180,
       "uvlock": true
     },
     "facing=west,packed=false": {
-      "model": "supplementaries:block/presents/trapped_present_opened_maroon",
+      "model": "supplementaries:block/presents/trapped_present_opened_scarlet",
       "y": 270,
       "uvlock": true
     },
     "facing=north,packed=true": {
-      "model": "supplementaries:block/presents/trapped_present_closed_maroon"
+      "model": "supplementaries:block/presents/trapped_present_closed_scarlet"
     },
     "facing=east,packed=true": {
-      "model": "supplementaries:block/presents/trapped_present_closed_maroon",
+      "model": "supplementaries:block/presents/trapped_present_closed_scarlet",
       "y": 90,
       "uvlock": true
     },
     "facing=south,packed=true": {
-      "model": "supplementaries:block/presents/trapped_present_closed_maroon",
+      "model": "supplementaries:block/presents/trapped_present_closed_scarlet",
       "y": 180,
       "uvlock": true
     },
     "facing=west,packed=true": {
-      "model": "supplementaries:block/presents/trapped_present_closed_maroon",
+      "model": "supplementaries:block/presents/trapped_present_closed_scarlet",
       "y": 270,
       "uvlock": true
     }

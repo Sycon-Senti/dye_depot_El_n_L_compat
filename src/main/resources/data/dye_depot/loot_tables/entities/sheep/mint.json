@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dye_depot:mint_wool"
+          "name": "dye_depot:turquoise_wool"
         }
       ],
       "rolls": 1.0
@@ -22,5 +22,5 @@
       "rolls": 1.0
     }
   ],
-  "random_sequence": "dye_depot:entities/sheep/mint"
+  "random_sequence": "dye_depot:entities/sheep/turquoise"
 }

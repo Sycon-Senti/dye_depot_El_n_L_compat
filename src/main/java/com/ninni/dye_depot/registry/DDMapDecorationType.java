@@ -3,17 +3,17 @@ package com.ninni.dye_depot.registry;
 import net.minecraft.world.level.saveddata.maps.MapDecoration;
 
 public enum DDMapDecorationType {
-    BANNER_MAROON(true, true),
+    BANNER_SCARLET(true, true),
     BANNER_ROSE(true, true),
     BANNER_CORAL(true, true),
-    BANNER_INDIGO(true, true),
-    BANNER_NAVY(true, true),
+    BANNER_ROYAL(true, true),
+    BANNER_PHTHALO(true, true),
     BANNER_SLATE(true, true),
     BANNER_OLIVE(true, true),
-    BANNER_AMBER(true, true),
+    BANNER_GOLDEN(true, true),
     BANNER_BEIGE(true, true),
     BANNER_TEAL(true, true),
-    BANNER_MINT(true, true),
+    BANNER_TURQUOISE(true, true),
     BANNER_AQUA(true, true),
     BANNER_VERDANT(true, true),
     BANNER_FOREST(true, true),

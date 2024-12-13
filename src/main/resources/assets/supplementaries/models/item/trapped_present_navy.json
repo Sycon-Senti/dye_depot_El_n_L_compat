@@ -1,12 +1,12 @@
 
 {
-  "parent": "supplementaries:block/presents/trapped_present_opened_navy",
+  "parent": "supplementaries:block/presents/trapped_present_opened_phthalo",
   "overrides": [
     {
       "predicate": {
         "supplementaries:primed": 1
       },
-      "model":  "supplementaries:block/presents/trapped_present_closed_navy"
+      "model":  "supplementaries:block/presents/trapped_present_closed_phthalo"
     }
   ]
 }
