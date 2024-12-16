@@ -60,7 +60,7 @@ public class BlockEntityWithoutLevelRendererMixin {
             if (block instanceof DDShulkerBoxBlock) {
                 DyeColor dyeColor = DDShulkerBoxBlock.getColorFromBlock(block);
                 if (dyeColor == null) blockEntity = DEFAULT_SHULKER_BOX;
-                else blockEntity = SHULKER_BOXES[dyeColor.getId() - 16];
+                else blockEntity = SHULKER_BOXES[dyeColor.getId() - 36]; //original value of 16
             }
             else if (block instanceof DDBedBlock) {
                 DDBedBlockEntity ddBed = new DDBedBlockEntity(BlockPos.ZERO, DDBlocks.SCARLET_BED.defaultBlockState());

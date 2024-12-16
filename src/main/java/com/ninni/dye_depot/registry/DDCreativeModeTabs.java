@@ -6,9 +6,6 @@ import net.minecraft.world.item.CreativeModeTabs;
 import static com.ninni.dye_depot.registry.DDItems.*;
 import static net.minecraft.world.item.Items.*;
 
-//Commented out Shulker Box and Bed entries as an exceedingly stinky crash dodge. You will still crash upon getting the
-//advancement toasts for these items, as well as trying to craft them. But after clearing those the game is... playable.
-
 public class DDCreativeModeTabs {
     static {
         ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS).register(entries -> {
@@ -185,35 +182,35 @@ public class DDCreativeModeTabs {
             entries.addAfter(BLUE_STAINED_GLASS_PANE, SLATE_STAINED_GLASS_PANE, PHTHALO_STAINED_GLASS_PANE);
             entries.addBefore(PURPLE_STAINED_GLASS_PANE, ROYAL_STAINED_GLASS_PANE);
 
-            //entries.addBefore(RED_SHULKER_BOX, SCARLET_SHULKER_BOX, ROSE_SHULKER_BOX);
-            //entries.addAfter(RED_SHULKER_BOX, CORAL_SHULKER_BOX);
-            //entries.addBefore(ORANGE_SHULKER_BOX, GINGER_SHULKER_BOX);
-            //entries.addAfter(ORANGE_SHULKER_BOX, TAN_SHULKER_BOX);
-            //entries.addBefore(YELLOW_SHULKER_BOX, BEIGE_SHULKER_BOX);
-            //entries.addAfter(YELLOW_SHULKER_BOX, GOLDEN_SHULKER_BOX, OLIVE_SHULKER_BOX);
-            //entries.addBefore(GREEN_SHULKER_BOX, FOREST_SHULKER_BOX);
-            //entries.addAfter(GREEN_SHULKER_BOX, VERDANT_SHULKER_BOX);
-            //entries.addBefore(RED_SHULKER_BOX, SCARLET_SHULKER_BOX, ROSE_SHULKER_BOX);
-            //entries.addAfter(RED_SHULKER_BOX, CORAL_SHULKER_BOX);
-            //entries.addBefore(CYAN_SHULKER_BOX, TEAL_SHULKER_BOX);
-            //entries.addAfter(CYAN_SHULKER_BOX, TURQUOISE_SHULKER_BOX, AQUA_SHULKER_BOX);
-            //entries.addAfter(BLUE_SHULKER_BOX, SLATE_SHULKER_BOX, PHTHALO_SHULKER_BOX);
-            //entries.addBefore(PURPLE_SHULKER_BOX, ROYAL_SHULKER_BOX);
+            entries.addBefore(RED_SHULKER_BOX, SCARLET_SHULKER_BOX, ROSE_SHULKER_BOX);
+            entries.addAfter(RED_SHULKER_BOX, CORAL_SHULKER_BOX);
+            entries.addBefore(ORANGE_SHULKER_BOX, GINGER_SHULKER_BOX);
+            entries.addAfter(ORANGE_SHULKER_BOX, TAN_SHULKER_BOX);
+            entries.addBefore(YELLOW_SHULKER_BOX, BEIGE_SHULKER_BOX);
+            entries.addAfter(YELLOW_SHULKER_BOX, GOLDEN_SHULKER_BOX, OLIVE_SHULKER_BOX);
+            entries.addBefore(GREEN_SHULKER_BOX, FOREST_SHULKER_BOX);
+            entries.addAfter(GREEN_SHULKER_BOX, VERDANT_SHULKER_BOX);
+            entries.addBefore(RED_SHULKER_BOX, SCARLET_SHULKER_BOX, ROSE_SHULKER_BOX);
+            entries.addAfter(RED_SHULKER_BOX, CORAL_SHULKER_BOX);
+            entries.addBefore(CYAN_SHULKER_BOX, TEAL_SHULKER_BOX);
+            entries.addAfter(CYAN_SHULKER_BOX, TURQUOISE_SHULKER_BOX, AQUA_SHULKER_BOX);
+            entries.addAfter(BLUE_SHULKER_BOX, SLATE_SHULKER_BOX, PHTHALO_SHULKER_BOX);
+            entries.addBefore(PURPLE_SHULKER_BOX, ROYAL_SHULKER_BOX);
 
-            //entries.addBefore(RED_BED, SCARLET_BED, ROSE_BED);
-            //entries.addAfter(RED_BED, CORAL_BED);
-            //entries.addBefore(ORANGE_BED, GINGER_BED);
-            //entries.addAfter(ORANGE_BED, TAN_BED);
-            //entries.addBefore(YELLOW_BED, BEIGE_BED);
-            //entries.addAfter(YELLOW_BED, GOLDEN_BED, OLIVE_BED);
-            //entries.addBefore(GREEN_BED, FOREST_BED);
-            //entries.addAfter(GREEN_BED, VERDANT_BED);
-            //entries.addBefore(RED_BED, SCARLET_BED, ROSE_BED);
-            //entries.addAfter(RED_BED, CORAL_BED);
-            //entries.addBefore(CYAN_BED, TEAL_BED);
-            //entries.addAfter(CYAN_BED, TURQUOISE_BED, AQUA_BED);
-            //entries.addAfter(BLUE_BED, SLATE_BED, PHTHALO_BED);
-            //entries.addBefore(PURPLE_BED, ROYAL_BED);
+            entries.addBefore(RED_BED, SCARLET_BED, ROSE_BED);
+            entries.addAfter(RED_BED, CORAL_BED);
+            entries.addBefore(ORANGE_BED, GINGER_BED);
+            entries.addAfter(ORANGE_BED, TAN_BED);
+            entries.addBefore(YELLOW_BED, BEIGE_BED);
+            entries.addAfter(YELLOW_BED, GOLDEN_BED, OLIVE_BED);
+            entries.addBefore(GREEN_BED, FOREST_BED);
+            entries.addAfter(GREEN_BED, VERDANT_BED);
+            entries.addBefore(RED_BED, SCARLET_BED, ROSE_BED);
+            entries.addAfter(RED_BED, CORAL_BED);
+            entries.addBefore(CYAN_BED, TEAL_BED);
+            entries.addAfter(CYAN_BED, TURQUOISE_BED, AQUA_BED);
+            entries.addAfter(BLUE_BED, SLATE_BED, PHTHALO_BED);
+            entries.addBefore(PURPLE_BED, ROYAL_BED);
 
             entries.addBefore(RED_CANDLE, SCARLET_CANDLE, ROSE_CANDLE);
             entries.addAfter(RED_CANDLE, CORAL_CANDLE);

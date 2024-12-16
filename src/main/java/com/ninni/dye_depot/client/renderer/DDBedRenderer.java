@@ -38,7 +38,7 @@ public class DDBedRenderer implements BlockEntityRenderer<DDBedBlockEntity> {
 
     public void render(DDBedBlockEntity bedBlockEntity, float f, PoseStack poseStack, MultiBufferSource multiBufferSource, int i, int j) {
 
-        Material material = DDSheets.BED_TEXTURE_LOCATION.get(bedBlockEntity.getColor().getId() - 16);
+        Material material = DDSheets.BED_TEXTURE_LOCATION.get(bedBlockEntity.getColor().getId() - 36); //original value of 16
 
         Level level = bedBlockEntity.getLevel();
         if (level != null) {

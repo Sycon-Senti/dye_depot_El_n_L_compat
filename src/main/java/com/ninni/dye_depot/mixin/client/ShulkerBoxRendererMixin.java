@@ -20,7 +20,7 @@ public class ShulkerBoxRendererMixin {
     private void DD$fixShulkerRenderer(ShulkerBoxBlockEntity shulkerBoxBlockEntity, float f, PoseStack poseStack, MultiBufferSource multiBufferSource, int i, int j, CallbackInfo ci) {
         DyeColor dyeColor = shulkerBoxBlockEntity.getColor();
 
-        if (dyeColor != null && dyeColor.getId() >= 16) {
+        if (dyeColor != null && dyeColor.getId() >= 36) { //original value of 0.
             ci.cancel();
         }
     }

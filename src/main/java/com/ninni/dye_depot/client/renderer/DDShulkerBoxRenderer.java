@@ -37,7 +37,7 @@ public class DDShulkerBoxRenderer implements BlockEntityRenderer<DDShulkerBoxBlo
             }
         }
 
-        Material material = DDSheets.SHULKER_TEXTURE_LOCATION.get(shulkerBoxBlockEntity.getColor().getId() - 16);
+        Material material = DDSheets.SHULKER_TEXTURE_LOCATION.get(shulkerBoxBlockEntity.getColor().getId() - 36); //original value of 16
 
         poseStack.pushPose();
         poseStack.translate(0.5F, 0.5F, 0.5F);
